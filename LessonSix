@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>My Mobile App</title>
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel=
+    "stylesheet">
+    <link href="_assets/css/jqm-demos.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+    rel="stylesheet">
+    <script src="js/jquery.js">
+    </script>
+    <script src="_assets/js/index.js">
+    </script>
+    <script src="js/jquery.mobile-1.4.5.min.js">
+    </script>
+</head>
+<body>
+   
+  
+    <div data-role="page" id="pageone" data-theme="b">
+	
+	<div data-role="panel" id="myPanel"> 
+    <h2>Lucas M. Hemlani</h2>
+	<p>a.k.a. The Elite Coder is the creator of this app.</p>
+    <p>You can close this panel by clicking outside the panel, pressing the Esc key or by swiping.</p>
+	
+	<a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+  </div> 
+  
+        <div data-role="header">
+            <div class="ui-button-active" data-role="navbar">
+                <ul>
+				    <li>
+					  <a href="#"><button class="ui-btn ui-icon-grid ui-btn-icon-left">Menu</button></a>
+					</li>
+                    <li>
+                        <a href="#"><button class="ui-btn ui-icon-home ui-btn-icon-left">Home</button></a>
+                    </li>
+                    <li>
+                        <a href="#"><button class="ui-btn ui-icon-lock ui-btn-icon-left">Login</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ui-content" data-role="main">
+            <ul data-filter="true" data-inset="true" data-role="listview">
+                <li>
+                    <a href="#">1 Star Hotel</a>
+                </li>
+                <li>
+                    <a href="#">2 Star Hotels</a>
+                </li>
+                <li>
+                    <a href="#">3 Star Hotels</a>
+                </li>
+				<li>
+                    <a href="#">4 Star Hotels</a>
+                </li>
+                <li>
+                    <a href="#">5 Star Hotels</a>
+                </li>
+                <li>
+                    <a href="#">7 Star Hotels</a>
+                </li>
+				<li>
+                    <a href="#">Private Houses</a>
+                </li>
+                <li>
+                    <a href="#">Private Airplane and Spacecrafts</a>
+                </li>
+                <li>
+                    <a href="#">Private Islands and Resorts</a>
+                </li>
+            </ul>
+        </div>
+		
+		
+  <div data-role="main" class="ui-content">
+     <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Lucas Hemlani</a>
+  </div>
+ 
+    <div data-role="footer" style="text-align:center;">
+		    <button class="ui-btn ui-icon-arrow-l ui-btn-icon-left">Back</button>
+            <button class="ui-btn ui-icon-plus ui-btn-icon-left">Add</button>
+			<button class="ui-btn ui-icon-delete ui-btn-icon-left">Stop</button>
+			<button class="ui-btn ui-icon-arrow-r ui-btn-icon-right">Forward</button>
+        </div>
+    </div>
+</body>
+</html>
